@@ -27,11 +27,13 @@ def selection_sort(original_arr=[]):
     
 
 
-
-
 if __name__=="__main__":
 
     original_arr = [94,32,13323,543,322,1,3232,43,0,1212]
     print original_arr
     print selection_sort(original_arr)
     
+    """ output
+        [94, 32, 13323, 543, 322, 1, 3232, 43, 0, 1212]
+        [13323, 3232, 1212, 543, 322, 94, 43, 32, 1, 0]
+    """
